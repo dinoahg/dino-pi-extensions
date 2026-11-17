@@ -13,8 +13,8 @@ Press **alt+x** to open the current project (pi's cwd) in VS Code.
 
 ## Install
 
-Part of [pi-extensions](../README.md). Install the whole repo, or just this one:
+Part of [dino-pi-extensions](../README.md). Install the whole repo, or just this one:
 
 ```bash
-pi install /path/to/pi-extensions/open-vs-code
+pi install /path/to/dino-pi-extensions/open-vs-code
 ```

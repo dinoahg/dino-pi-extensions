@@ -41,8 +41,8 @@ In this order, without duplicates:
 
 ## Install
 
-Part of [pi-extensions](../README.md). Install the whole repo, or just this one:
+Part of [dino-pi-extensions](../README.md). Install the whole repo, or just this one:
 
 ```bash
-pi install /path/to/pi-extensions/folder-picker
+pi install /path/to/dino-pi-extensions/folder-picker
 ```

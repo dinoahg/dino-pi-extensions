@@ -1,6 +1,6 @@
 # pi-load-skills
 
-> Fork of [bnenu/pi-load-skill](https://github.com/bnenu/pi-load-skill) by Bogdan Nenu, maintained in [dinoahg/pi-extensions](https://github.com/dinoahg/pi-extensions). It fixes skill restoration on reload, the `load_skill` tool, and `/tree` support. See [CHANGELOG](CHANGELOG.md).
+> Fork of [bnenu/pi-load-skill](https://github.com/bnenu/pi-load-skill) by Bogdan Nenu, maintained in [dinoahg/dino-pi-extensions](https://github.com/dinoahg/dino-pi-extensions). It fixes skill restoration on reload, the `load_skill` tool, and `/tree` support. See [CHANGELOG](CHANGELOG.md).
 
 Load your skills on demand from any location. Keep your [pi](https://shittycodingagent.ai) agent lean — don't load all your skills when you don't need them, add only the ones you need for that session.
 
@@ -18,13 +18,13 @@ Not published to npm. Install from this repo:
 
 ```bash
 # Local clone (edits take effect on /reload, no reinstall)
-pi install /path/to/pi-extensions/pi-load-skills
+pi install /path/to/dino-pi-extensions/pi-load-skills
 
 # From git: installs all extensions in the repo; see the root README to pick only this one
-pi install git:github.com/dinoahg/pi-extensions
+pi install git:github.com/dinoahg/dino-pi-extensions
 
 # Try it for one session
-pi -e /path/to/pi-extensions/pi-load-skills/extensions/load-skills.ts
+pi -e /path/to/dino-pi-extensions/pi-load-skills/extensions/load-skills.ts
 ```
 
 ## Usage

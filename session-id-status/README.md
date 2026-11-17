@@ -12,8 +12,8 @@ later or resuming with `pi --session <id>`.
 
 ## Install
 
-Part of [pi-extensions](../README.md). Install the whole repo, or just this one:
+Part of [dino-pi-extensions](../README.md). Install the whole repo, or just this one:
 
 ```bash
-pi install /path/to/pi-extensions/session-id-status
+pi install /path/to/dino-pi-extensions/session-id-status
 ```

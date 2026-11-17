@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dinoahg/pi-extensions.git",
+    "url": "https://github.com/dinoahg/dino-pi-extensions.git",
     "directory": "pi-load-skills"
   },
   "type": "commonjs",

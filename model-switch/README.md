@@ -28,8 +28,8 @@ Add a line to `MODEL_ALIASES` in `extensions/model-switch.ts`
 
 ## Install
 
-Part of [pi-extensions](../README.md). Install the whole repo, or just this one:
+Part of [dino-pi-extensions](../README.md). Install the whole repo, or just this one:
 
 ```bash
-pi install /path/to/pi-extensions/model-switch
+pi install /path/to/dino-pi-extensions/model-switch
 ```

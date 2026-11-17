@@ -1,4 +1,4 @@
-# pi-extensions
+# dino-pi-extensions
 
 My [pi](https://pi.dev) extensions. The repo root is a pi package that loads every `*/extensions` folder; each folder is also a package on its own.
 
@@ -15,13 +15,13 @@ My [pi](https://pi.dev) extensions. The repo root is a pi package that loads eve
 
 ```bash
 # All extensions, from this local clone (loaded in place: edit, then /reload — no reinstall)
-pi install ~/projects/my-projects/pi-extensions
+pi install ~/projects/my-projects/dino-pi-extensions
 
 # One extension
-pi install ~/projects/my-projects/pi-extensions/pi-load-skills
+pi install ~/projects/my-projects/dino-pi-extensions/pi-load-skills
 
 # On another machine, from git (update later with: pi update --extensions)
-pi install git:github.com/dinoahg/pi-extensions
+pi install git:github.com/dinoahg/dino-pi-extensions
 ```
 
 To load only some extensions from the whole-repo package, use the object form in `~/.pi/agent/settings.json` (or toggle them in `pi config`):
@@ -30,7 +30,7 @@ To load only some extensions from the whole-repo package, use the object form in
 {
   "packages": [
     {
-      "source": "git:github.com/dinoahg/pi-extensions",
+      "source": "git:github.com/dinoahg/dino-pi-extensions",
       "extensions": ["pi-load-skills/extensions/*.ts", "folder-picker/extensions/*.ts"]
     }
   ]
